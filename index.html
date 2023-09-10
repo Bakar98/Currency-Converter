@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <label for="amount">Enter Amount</label>
+        <input type="number" name="amount" id="amount">
+        <div id="convert_div">
+            <div id="from_div">
+                <label for="from">From</label> <br>
+                <select name="laguage" id="fromSelect">
+                    <option value ="0" >USD</option>
+                    <option value ="1" >INR</option>
+                    <option value ="2" >SAR</option>
+                    <option value ="3" >AED</option>
+                    <option value ="4" >EUR</option>
+                </select>
+            </div>
+            <span id="convert_icon">&#8633;</span>
+            <div id="to_div">
+                <label for="to" >To</label><br>
+                <select name="laguage" id="toSelect">
+                    <option value ="1" >INR</option>
+                    <option value ="0" >USD</option>
+                    <option value ="2" >SAR</option>
+                    <option value ="3" >AED</option>
+                    <option value ="4" >EUR</option>
+                </select>
+            </div>
+        </div>
+        <div id="coverted_amount">
+            <h3 id="fromOutput">0</h3><label for="from" id="fromLabel" >USD</label>
+            <span>=</span>
+            <h3 id="toOutput">0</h3><label for="from" id="toLabel">INR</label>
+        </div>
+        <button id="exhcangeBtn">Get Exchange Rate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

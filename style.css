@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;    
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5em;
+    width: 20rem;
+    height: 22rem;
+}
+
+h2{
+  text-align: center;  
+}
+
+#amount{
+    margin: 1rem 0;
+    height: 2rem;
+    padding: 1rem;
+}
+
+#convert_div{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+#convert_icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#exhcangeBtn{
+    font-size: 1.2rem;
+    padding: .7rem;
+    border-radius: .2em;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+#exhcangeBtn:hover{
+    background-color: rgb(91, 0, 175);
+}
+
+select{
+    width: 5rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+#coverted_amount{
+    display: flex;
+    align-items: center;
+}
+
+#coverted_amount span{
+    font-size: 1rem;
+    margin: 0 .8rem;
+}
+
+#coverted_amount label{
+    margin: 0 0 0 .5rem;
+}
